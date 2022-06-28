@@ -9,6 +9,8 @@ import axios from './http/req'
 import VueLazyload from 'vue-lazyload'
 // 懒加载图片
 
+import Footer from '@/components/Footer'
+
 
 // import loadimage from '@/assets/images/lazy.png'
 
@@ -27,5 +29,6 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
+  Footer,
   render: (h) => h(App)
 }).$mount('#app')

@@ -1,6 +1,6 @@
 <template>
     <div>
-        Home
+        头部
     </div>
 </template>
 
